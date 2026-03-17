@@ -10,7 +10,7 @@ We implement and compare two approaches:
 
 | Method | Approach | Classifier |
 |--------|----------|------------|
-| **Method 1** | Node2Vec embeddings (Hadamard product edge features) | MLP |
+| **Method 1** | Node2Vec embeddings (Hadamard product edge features) | Multi Layer Perceptron (MLP) |
 | **Method 2** | Graph heuristics (Common Neighbors, Jaccard, Adamic-Adar, Preferential Attachment) | Random Forest, Logistic Regression |
 
 ## Dataset
