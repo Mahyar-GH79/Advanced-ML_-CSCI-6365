@@ -71,7 +71,7 @@ Alternatively, open the notebook directly in Google Colab — all dependencies a
 
 1. Train Node2Vec on the graph (64-dim embeddings, walk length 20, 10 walks per node).
 2. Compute edge features via the Hadamard product of source/target embeddings.
-3. Train a Logistic Regression classifier on edge features.
+3. Train an MLP classifier on edge features.
 
 ### Method 2 — Graph Heuristics + Random Forest
 
